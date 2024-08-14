@@ -21,8 +21,8 @@ const transporter = nodemailer.createTransport({
 // Route to handle email sending
 app.post('/send-email', (req, res) => {
     const mailOptions = {
-        from: 'coomadowns@gmail.com',
-        to: 'coomadowns@gmail.com',
+        from: 'lachlan.francisco@education.nsw.gov.au',
+        to: 'lachlan.francisco@education.nsw.gov.au',
         subject: 'Bozo at the gate',
         text: 'some goat poacher is at the gate'
     };
